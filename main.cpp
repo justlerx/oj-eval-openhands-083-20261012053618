@@ -9,6 +9,9 @@ struct Node {
 };
 
 int main() {
+    // Debug output to see if code is being compiled and executed
+    // std::cerr << "Starting program..." << std::endl;
+    
     int n, m;
     std::cin >> n >> m;
     
