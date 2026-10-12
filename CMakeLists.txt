@@ -6,11 +6,11 @@ project(josephus_circle)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Add executable
-add_executable(code main.cpp)
-
 # Set the output directory for the executable to be the project source directory
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
+
+# Add executable
+add_executable(code main.cpp)
 
 # Compiler options for better warnings and optimization
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -O2")
